@@ -1,13 +1,23 @@
 #include <stdio.h>
 
-int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
-int sum = 0;
-int index;
+int numbers[30], sum = 0, i, size;
 int main()
+
 {
-  for (index = 0; index <= sizeof(array - 1); index++)
+  printf("Enter number of elements: ");
+  scanf("%d", &size);
+  // Populate the array with elements from user
+
+  printf("Enter %d elements\n", size);
+
+  for (int j = 0; j <= size - 1; j++)
   {
-    sum = sum + array[index];
-    printf("Sum: %d", sum);
+    scanf("%d", &numbers[j]);
   }
+
+  for (i = 0; i <= sizeof(numbers - 1); i++)
+  {
+    sum = sum + numbers[i];
+  }
+  printf("Sum: %d\n", sum);
 }
