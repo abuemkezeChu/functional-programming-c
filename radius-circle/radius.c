@@ -2,7 +2,8 @@
 
 const float PI = 3.14159; // defining constant PI
 
-int main() {
+int main()
+{
   float radius, area;
 
   printf("Enter the radius of the circle: ");
