@@ -12,9 +12,9 @@ int main() {
   scanf("%f", &radius);
 
   area = PI * radius * radius;
-  printf("The value of radius provided is: %f", radius);
+  printf("The value of radius provided is: %.2f\n", radius);
 
-  printf("The area of the circle is: %f\n", area);
+  printf("The area of the circle is: %.2f\n", area);
 
   return 0;
 }
