@@ -24,6 +24,6 @@ int main(){
     printf("short: %hd\n", f); // %hd is format specifier for short
     printf("unsigned: %u\n", g); // %u is format specifier for unsigned
     printf("signed: %d\n", h); // %d is format specifier for signed
-    printf("string: %s\n", myName); // %s is a format specifier for a string of characters
+    printf("string: %s\n", myName); // %s is a format specifier for a string
     return 0;
 }
