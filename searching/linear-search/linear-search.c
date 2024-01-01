@@ -4,7 +4,6 @@ int main(){
   int array_size = sizeof(array)/sizeof(array[0]);
   int index = 0; 
   int search;
-  printf("Number of elements in array =>  %d\n", array_size);
   printf("Enter the element to be searched: ");
   scanf("%d",&search);
   
