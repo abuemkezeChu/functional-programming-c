@@ -8,8 +8,19 @@
 #include <stdio.h>
 int main()
 {
-  int arr[] = {6, 1, 77, 4, 2, 9, 8, 5, 3};
-  int arr_size = sizeof(arr) / sizeof(arr[0]);
+  int arr[100];
+  int arr_size;
+
+  // Ask user to enter the size of the array
+  printf("Enter the number of elements you wish to add to your array\n");
+  scanf("%d", &arr_size);
+
+  // Fill in arr_size numbers
+  printf("Enter %d elements\n", arr_size);
+  for (int count = 0; count < arr_size; count++)
+  {
+    scanf("%d", &arr[count]);
+  }
 
   // display unsorted array
   printf("Unsorted array--------> ");
