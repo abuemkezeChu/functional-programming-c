@@ -34,5 +34,13 @@ int main()
     arr[j + 1] = temp;
   }
 
+  // display sorted array
+  printf("Sorted array--------> ");
+  for (int elt = 0; elt < arr_size; elt++)
+  {
+    printf("%d\t", arr[elt]);
+  }
+  printf("\n");
+
   return (0);
 }
