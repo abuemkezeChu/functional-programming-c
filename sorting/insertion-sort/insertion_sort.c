@@ -26,7 +26,7 @@ int main()
     int temp = arr[i];
     int j = i - 1;
 
-    while (j <= 0 && arr[j] < temp)
+    while (j >= 0 && arr[j] > temp)
     {
       arr[j + 1] = arr[j];
       j--;
@@ -35,7 +35,7 @@ int main()
   }
 
   // display sorted array
-  printf("Sorted array--------> ");
+  printf("Sorted array-------->   ");
   for (int elt = 0; elt < arr_size; elt++)
   {
     printf("%d\t", arr[elt]);
